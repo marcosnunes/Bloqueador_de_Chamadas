@@ -1,0 +1,23 @@
+# Built variants
+*.apk
+*.aab
+*.ap_
+
+# Android Studio
+.idea/
+.gradle/
+build/
+captures/
+*.iml
+.cxx/
+local.properties
+
+# Log files
+*.log
+
+# Keystore (NEVER commit these in a real scenario, but keeping folder reference)
+Keystore/
+
+# OS specific
+.DS_Store
+Thumbs.db

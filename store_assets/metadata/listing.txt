@@ -1,0 +1,26 @@
+--- PLAY STORE METADATA ---
+
+TITULO (Máx 50 caracteres):
+Bloqueador de Chamadas: Lista Branca
+
+DESCRIÇÃO CURTA (Máx 80 caracteres):
+Bloqueie chamadas indesejadas e permita apenas quem você conhece. Simples e seguro.
+
+DESCRIÇÃO COMPLETA (Máx 4000 caracteres):
+Cansado de receber chamadas de spam, telemarketing ou números desconhecidos? O Bloqueador de Chamadas devolve a paz ao seu smartphone!
+
+Com foco total em privacidade e simplicidade, nosso aplicativo permite que VOCÊ decida quem pode te ligar. Ao criar uma "Lista Branca" personalizada, você garante que apenas amigos, familiares e contatos importantes consigam completar a chamada.
+
+POR QUE ESCOLHER O BLOQUEADOR DE CHAMADAS?
+
+✅ PROTEÇÃO ATIVA: Utilizamos a tecnologia Call Screening oficial do Android para filtrar chamadas de forma inteligente e sem atrasos.
+✅ IMPORTAÇÃO INTELIGENTE: Adicione todos os seus contatos à lista de permissões com apenas um toque.
+✅ CONTROLE TOTAL: Adicione ou remova números manualmente de forma fácil e rápida.
+✅ BUSCA RÁPIDA: Encontre qualquer número na sua lista através da nossa barra de pesquisa integrada.
+✅ ORDEM ALFABÉTICA: Lista organizada para que você encontre sempre o que procura.
+✅ PRIVACIDADE EM PRIMEIRO LUGAR: Seus dados não saem do seu celular. Não coletamos logs de chamadas nem vendemos seus dados.
+
+Diga adeus às interrupções irritantes. Baixe agora e tenha o controle total sobre quem pode falar com você!
+
+--- NOTA DE PERMISSÕES ---
+Este aplicativo requer as permissões de "Contatos" e "Telefone" para identificar os autores das chamadas e funcionar como seu assistente de triagem de chamadas padrão.

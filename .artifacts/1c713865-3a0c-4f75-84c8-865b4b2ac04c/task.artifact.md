@@ -1,0 +1,14 @@
+- [x] Limpeza de Strings e Recursos
+    - [x] Adicionar novas strings em `strings.xml`
+    - [x] Corrigir strings hardcoded em `activity_main.xml`
+- [x] Otimização e Refatoração na `MainActivity.java`
+    - [x] Converter campos em variáveis locais
+    - [x] Substituir `commit()` por `apply()`
+    - [x] Melhorar lógica de Role e Listas
+    - [x] Internacionalizar textos de status
+- [x] Atualização de API na `MyCallScreeningService.java`
+    - [x] Substituir `PhoneNumberUtils.compare` por `areSamePhoneNumber`
+    - [x] Limpar variáveis e avisos
+- [x] Verificação Final
+    - [x] Executar `./gradlew app:assembleDebug`
+    - [x] Validar ausência de avisos

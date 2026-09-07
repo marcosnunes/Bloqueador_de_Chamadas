@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 C40,20 30,25 24,30 L24,55 C24,75 40,90 54,95 C68,90 84,75 84,55 L84,30 C78,25 68,20 54,20 Z" />
+
+    <!-- Blocking Bar (diagonal) -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M35,35 L73,73 L78,68 L40,30 Z" />
+
+    <!-- Simple Phone Icon inside -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M54,40 C50,40 47,43 47,47 L47,60 C47,64 50,67 54,67 C58,67 61,64 61,60 L61,47 C61,43 58,40 54,40 Z M54,70 C52,70 51,71 51,73 C51,75 52,76 54,76 C56,76 57,75 57,73 C57,71 56,70 54,70 Z" />
+
+</vector>

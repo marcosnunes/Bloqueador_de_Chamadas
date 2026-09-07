@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Bloqueador de Chamadas</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f8f9fa; }
+        header { background-color: #1976D2; color: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; text-align: center; }
+        h1 { margin: 0; font-size: 24px; }
+        h2 { color: #1976D2; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; margin-top: 30px; }
+        .content { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        footer { text-align: center; margin-top: 40px; font-size: 14px; color: #777; }
+        .highlight { background-color: #e3f2fd; padding: 15px; border-left: 4px solid #1976D2; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bloqueador de Chamadas</h1>
+        <p>Política de Privacidade</p>
+    </header>
+
+    <div class="content">
+        <p>Última atualização: 07 de Setembro de 2026</p>
+
+        <p>A sua privacidade é importante para nós. Esta política explica como o aplicativo <strong>Bloqueador de Chamadas</strong> lida com as suas informações.</p>
+
+        <h2>1. Coleta de Informações</h2>
+        <p>O Bloqueador de Chamadas foi projetado para funcionar de forma local e privada. <strong>Nós não coletamos, não armazenamos em servidores externos e não compartilhamos nenhum dado pessoal ou identificável do usuário.</strong></p>
+
+        <div class="highlight">
+            <strong>Permissões Utilizadas:</strong>
+            <ul>
+                <li><strong>READ_CONTACTS:</strong> Usada exclusivamente para permitir que o aplicativo identifique e permita chamadas de números que já estão na sua agenda.</li>
+                <li><strong>READ_PHONE_STATE / ANSWER_PHONE_CALLS:</strong> Necessárias para detectar quando uma chamada está sendo recebida e agir sobre ela (permitir ou bloquear).</li>
+                <li><strong>Call Screening Service:</strong> O aplicativo utiliza a API oficial do Android para filtrar chamadas de spam e números não autorizados de forma eficiente.</li>
+            </ul>
+        </div>
+
+        <h2>2. Uso dos Dados</h2>
+        <p>Os dados acessados (números de telefone e nomes de contatos) são processados exclusivamente dentro do seu dispositivo para:</p>
+        <ul>
+            <li>Identificar se o autor da chamada está na sua "Lista Branca".</li>
+            <li>Bloquear automaticamente chamadas de números que não possuem sua permissão.</li>
+            <li>Exibir o nome do contato na lista de permissões do aplicativo para sua conveniência.</li>
+        </ul>
+
+        <h2>3. Armazenamento Local</h2>
+        <p>A sua "Lista Branca" é armazenada localmente nas preferências do aplicativo (SharedPreferences). Se você desinstalar o aplicativo, esses dados serão removidos.</p>
+
+        <h2>4. Compartilhamento com Terceiros</h2>
+        <p>Não compartilhamos, vendemos ou alugamos seus dados para terceiros. Todo o processamento de triagem de chamadas ocorre no ambiente seguro do sistema Android no seu próprio aparelho.</p>
+
+        <h2>5. Segurança</h2>
+        <p>Seguimos as melhores práticas de desenvolvimento Android e utilizamos as APIs oficiais do sistema para garantir que suas informações permaneçam protegidas e restritas ao uso pretendido do aplicativo.</p>
+
+        <h2>6. Contato</h2>
+        <p>Se você tiver alguma dúvida sobre esta política de privacidade, entre em contato através do nosso repositório no GitHub.</p>
+    </div>
+
+    <footer>
+        &copy; 2026 Bloqueador de Chamadas - Desenvolvido com foco em privacidade.
+    </footer>
+</body>
+</html>

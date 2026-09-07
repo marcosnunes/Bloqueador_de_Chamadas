@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bloqueador de Chamadas</string>
+    <string name="adicionar_numero_permitido_exceao">Adicionar Número Permitido (Exceção)</string>
+    <string name="ex_41999999999">Ex: 41999999999</string>
+    <string name="salvar_na_lista_branca">Salvar na Lista Branca</string>
+    <string name="numeros_permitidos">Números Permitidos</string>
+    <string name="remover">Remover</string>
+    <string name="lista_vazia">Nenhum número na lista branca.</string>
+    <string name="status_ativado">Ativado - Proteção ativa</string>
+    <string name="status_desativado">Desativado - Sem proteção</string>
+    <string name="config_app_padrao">Gerenciar Aplicativo Padrão</string>
+    <string name="contatos_importados">Contatos importados com sucesso!</string>
+    <string name="numero_manual">Número Manual</string>
+    <string name="protecao_ativa">Proteção Ativa</string>
+    <string name="status_vinculado">Status: Vinculado ao sistema</string>
+    <string name="status_nao_vinculado">Status: Não vinculado ao sistema (App não é padrão)</string>
+    <string name="removido">Removido.</string>
+    <string name="definido_padrao">Aplicativo definido como padrão!</string>
+    <string name="permissao_necessaria">Permissões necessárias para identificar chamadas.</string>
+    <string name="numero_ja_na_lista">Este número já está na lista.</string>
+    <string name="numero_salvo_excecao">Número salvo nas exceções!</string>
+    <string name="buscar_contato">Buscar contato&#8230;</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CallBlocker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Main colors -->
+        <item name="colorPrimary">@color/primary_brand</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/security_blue</item>
+        <item name="android:windowBackground">@color/background_light</item>
+
+        <!-- Material 3 Color Mapping for Light Mode -->
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutlineVariant">@color/border_extra_light</item>
+        <item name="colorError">@color/block_red</item>
+
+        <!-- Samsung-like soft rounded corners -->
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.CallBlocker.Large</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.CallBlocker.Medium</item>
+
+        <!-- Edge to Edge support -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="ShapeAppearance.CallBlocker.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="ShapeAppearance.CallBlocker.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+</resources>

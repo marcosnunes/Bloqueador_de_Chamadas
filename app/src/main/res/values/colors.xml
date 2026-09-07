@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_brand">#1976D2</color>
+    <color name="security_blue">#64B5F6</color>
+    <color name="block_red">#E53935</color>
+    <color name="success_green">#43A047</color>
+    <color name="background_light">#F8F9FA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="border_light">#E0E0E0</color>
+    <color name="border_extra_light">#F0F0F0</color>
+</resources>
