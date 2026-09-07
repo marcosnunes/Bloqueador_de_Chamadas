@@ -24,6 +24,3 @@ Thumbs.db
 
 # Play Store Assets (Added to gitignore as requested)
 store_assets/
-
-convert_assets.py
-generate_pngs.py
