@@ -1,39 +1,32 @@
-# Implementation Plan - Project Publication & Store Preparation
+# Implementation Plan - Whitelist Sync & Search Fix
 
-The goal is to prepare the project for publication on GitHub and the Google Play Store. This includes creating a privacy policy, setting up GitHub Pages, configuring a robust `.gitignore`, and organizing store assets.
+The goal is to fix the synchronization bugs in the whitelist management, ensuring that additions and removals are correctly reflected in both search results and the main list, and that the "Sync" button respects manual deletions.
 
 ## User Review Required
 
 > [!IMPORTANT]
-> **Privacy Policy Hosting:** I will set up the privacy policy in a `docs/` folder. GitHub Pages can be configured to serve content from this folder automatically.
+> **Sync Button Behavior:** I will change the "Sync" button (two arrows) to a **Refresh** action. It will update the names of existing whitelist items if they changed in your phonebook, but it will **not** automatically re-add contacts you have previously removed. This prevents deleted contacts from "haunting" your whitelist.
 >
-> **Store Graphics:** I will create a structured folder for Play Store assets. Since I cannot generate image files directly, I will provide a README with the exact technical specifications and creative descriptions for each asset (Icon, Feature Graphic, Screenshots).
+> **Global Search Upgrade:** I will improve the search logic to properly find contacts by both name and number in the system phonebook, ensuring that "ex-members" of your whitelist appear with a `+` icon for easy re-addition.
 
 ## Proposed Changes
 
-### Project Root & GitHub Setup
+### [Component] App Logic
 
-#### [NEW] [.gitignore](file:///D:/Android/Bloqueador_de_chamadas/.gitignore)
-- Standard Android `.gitignore` to prevent committing build artifacts, local properties, and IDE-specific files.
-
-#### [NEW] [docs/index.html](file:///D:/Android/Bloqueador_de_chamadas/docs/index.html)
-- A professional, responsive HTML privacy policy page.
-- Specifically addresses the use of `CallScreeningService` and `READ_CONTACTS` permissions as required by Google Play policies.
-
-### Play Store Artifacts
-
-#### [NEW] [store_assets/metadata/listing.txt](file:///D:/Android/Bloqueador_de_chamadas/store_assets/metadata/listing.txt)
-- Optimized Title, Short Description, and Full Description for the Play Store.
-
-#### [NEW] [store_assets/graphics/README.md](file:///D:/Android/Bloqueador_de_chamadas/store_assets/graphics/README.md)
-- Detailed specifications for:
-    - App Icon (512x512 PNG).
-    - Feature Graphic (1024x500 PNG).
-    - Screenshots (Phone, 7-inch Tablet, 10-inch Tablet).
+#### [MODIFY] [MainActivity.java](file:///D:/Android/Bloqueador_de_chamadas/app/src/main/java/com/bloqueadordechamadas/MainActivity.java)
+- **Fix `saveAndRefresh`:** Ensure the adapter's master list (`fullWhitelist`) is updated on every action, even when a search is active. This fixed the "not re-appearing after clearing search" bug.
+- **Refine `performGlobalSearch`:**
+    - Use a broader query that searches for both names and phone numbers in the Android Contacts database.
+    - Maintain strict consistency between the search result icons and the actual whitelist state.
+- **Update `forceSyncContacts`:**
+    - Remove the automatic "add if missing" logic.
+    - Instead, focus on updating the names of items already in the whitelist to match the phonebook.
+- **Improve `onItemActionClicked`:** Ensure the visual state (`isInWhitelist`) is updated correctly across all list instances.
 
 ## Verification Plan
 
 ### Manual Verification
-- Verify that the `docs/` folder exists and contains the privacy policy.
-- Verify that the `.gitignore` correctly ignores the `build/` and `.gradle/` folders.
-- Review the metadata content for clarity and compliance.
+- **Search & Add:** Search for a contact, click `+`. Verify it turns to a trash icon. Clear search. Verify it appears in the main list.
+- **Search & Remove:** Search for a whitelisted contact, click trash icon. Verify it turns to a `+` icon (if in phonebook) or disappears (if manual). Clear search. Verify it's gone from the main list.
+- **Sync Test:** Manually remove a contact. Click the Sync button. Verify the contact does **not** come back automatically.
+- **Name Sync:** Change a contact's name in the system phonebook. Click Sync in the app. Verify the name updates in the whitelist.

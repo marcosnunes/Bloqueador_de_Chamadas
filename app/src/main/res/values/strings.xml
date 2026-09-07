@@ -20,4 +20,8 @@
     <string name="numero_ja_na_lista">Este número já está na lista.</string>
     <string name="numero_salvo_excecao">Número salvo nas exceções!</string>
     <string name="buscar_contato">Buscar contato&#8230;</string>
+    <string name="sincronizar_contatos">Sincronizar todos os contatos</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="contatos_sincronizados">Todos os contatos sincronizados!</string>
+    <string name="contato_adicionado">Contato adicionado à lista branca.</string>
 </resources>
