@@ -46,7 +46,7 @@ Um aplicativo Android moderno e focado em privacidade para triagem de chamadas. 
 ## 📄 Política de Privacidade
 
 A nossa política de privacidade pode ser acessada em:
-[https://marcosnunes.github.io/Bloqueador_de_Chamadas/docs/index.html](docs/index.html)
+https://marcosnunes.github.io/Bloqueador_de_Chamadas/docs/
 
 ## ⚖️ Licença
 
