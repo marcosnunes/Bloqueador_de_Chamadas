@@ -1,6 +1,6 @@
 # Bloqueador de Chamadas (Lista Branca) 🛡️
 
-[![Android SDK](https://img.shields.io/badge/SDK-31%20--%2037-brightgreen.svg)](https://developer.android.com)
+[![Android SDK](https://img.shields.io/badge/SDK-12%20--%2037-brightgreen.svg)](https://developer.android.com)
 [![Material 3](https://img.shields.io/badge/Design-Material%203-blue.svg)](https://m3.material.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -20,7 +20,7 @@ Um aplicativo Android moderno e focado em privacidade para triagem de chamadas. 
 
 - **Linguagem:** Java (Android Nativo)
 - **SDK Alvo:** Android 17 (API 37)
-- **SDK Mínima:** Android 12 (API 31)
+- **SDK Mínima:** Android 3.1 (API 12)
 - **Bibliotecas:** Material Components, ConstraintLayout, RecyclerView, ViewBinding.
 
 ## 🚀 Como Compilar e Rodar
