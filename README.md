@@ -16,13 +16,6 @@ Um aplicativo Android moderno e focado em privacidade para triagem de chamadas. 
 - **📥 Importação em Lote:** Importe todos os seus contatos existentes para a lista branca com apenas um toque.
 - **🔒 Privacidade Total:** Todo o processamento é feito localmente no dispositivo. Nenhum dado é enviado para servidores externos.
 
-## 📸 Screenshots
-
-| Tela Principal | Lista Branca | Adicionar Número |
-| :---: | :---: | :---: |
-| ![Home](store_assets/graphics/placeholder_screenshot.png) | ![List](store_assets/graphics/placeholder_screenshot.png) | ![Add](store_assets/graphics/placeholder_screenshot.png) |
-*(Mockups sugeridos em `store_assets/graphics/`)*
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem:** Java (Android Nativo)
