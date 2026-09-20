@@ -24,3 +24,6 @@ Thumbs.db
 
 # Play Store Assets (Added to gitignore as requested)
 store_assets/
+
+google-services.json
+

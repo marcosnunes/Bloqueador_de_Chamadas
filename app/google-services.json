@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401200804467",
+    "project_id": "bloqueador-de-chamadas-free",
+    "storage_bucket": "bloqueador-de-chamadas-free.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401200804467:android:5e36a65c0e576650467006",
+        "android_client_info": {
+          "package_name": "com.bloqueadordechamadas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA17VaxMtxLZjZXQkSUeu7rGWqvHDTpCNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
